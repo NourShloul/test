@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex #4 task 4</title>
+    <style>
+        .static , .relative , .absolute {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+        }
+
+        div {
+            border: 1px dotted black;
+            width:fit-content;
+            position: relative;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <p>position : static</p>
+    <div>
+        <p class="static">One</p>
+        <p class="static" style="background-color: green; position: static;">Two</p>
+        <p class="static">Three</p>
+        <p class="static">Four</p>
+    </div>
+
+    <br>
+
+    <p>position : relative</p>
+    <div>
+        <p class="relative">One</p>
+        <p class="relative" style="background-color: green; position: relative;  top:20px; left:20px">Two</p>
+        <p class="relative">Three</p>
+        <p class="relative">Four</p>
+    </div>
+
+    <br>
+
+    <p>position : absolute</p>
+    <div>
+        <p class="absolute">One</p>
+        <p class="absolute" style="background-color: green; position:absolute;  top:5px; left:20px">Two</p>
+        <p class="absolute">Three</p>
+        <p class="absolute">Four</p>
+    </div>
+</body>
+</html>

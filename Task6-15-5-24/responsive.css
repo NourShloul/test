@@ -1,0 +1,11 @@
+.header {
+    background-image: url(laptop.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    align-content: center;
+    color: white;
+    
+}
+ .whiteItem {
+    text-align: center;
+}
